@@ -1,0 +1,144 @@
+.main {
+    font-family:  "Federo", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.65;
+    color: blue;
+}
+/* Inner */
+.inner {
+    margin: 0 auto;
+    width: 75rem;
+    max-width: calc(100% - 6rem);
+}
+a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin: 0 0 2rem 0;
+}
+/* special */
+header.special {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+header.special p {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Highlights */
+.highlights {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.highlights>* {
+    width: 33.3%;
+}
+.highlights> :nth-child(3n + 1),
+.highlights> :nth-child(3n) {
+    width: calc(33.3333333333% + -0.5rem);
+}
+.highlights .content {
+    border-radius: 4px;
+    height: 100%;
+    padding: 3rem;
+    text-align: center;
+}
+.highlights .content:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.highlights .content .label img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+/* bestseller */
+.bestseller {
+    margin: 2.5rem 0;
+    width: 100%;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -moz-align-items: -moz-stretch;
+    -webkit-align-items: -webkit-stretch;
+    -ms-align-items: -ms-stretch;
+    align-items: stretch;
+}
+
+.bestseller>* {
+    padding: 1.5rem;
+    width: calc(33.3333333333% + 1rem);
+}
+.bestseller> :nth-child(3n + 1),
+.bestseller> :nth-child(3n) {
+    width: calc(33.3333333333% + -0.5rem);
+}
+
+.content .author .image img{
+    width: 200px ;
+    height: 400 ;
+    object-fit: cover ;
+}
+/* Wrapper */
+.wrapper {
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* tag */
+#tag {
+    background-color: #1b7dce;
+    color: rgba(251, 255, 254, 0.75);
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    
+}
+.credit:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(18, 9, 148);
+    border-radius: 15px;
+}
+
+.copyright {
+    border-top: 1px solid;
+    font-size: 0.8rem;
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #111111;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header-top {
+    margin: 0px;
+    background-image: url("https://i.pinimg.com/originals/ae/52/d9/ae52d968e7d8117170d2eeff6245ca5c.gif");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top .titleh1, .titlep {
+    text-align: center;
+    font-size: 120px;
+    font-family: "Corinthia", serif;
+    /* font-style: oblique; */
+    color: rgb(233, 214, 48);
+    padding: 10px;
+    text-shadow:
+        2px 2px 0 rgb(2, 3, 88),
+        /* Bóng phía dưới bên phải */
+        -2px 2px 0 rgb(2, 3, 88),
+        /* Bóng phía dưới bên trái */
+        2px -2px 0 rgb(2, 3, 88),
+        /* Bóng phía trên bên phải */
+        -2px -2px 0 rgb(2, 3, 88),
+        /* Bóng phía trên bên trái */
+        0 2px 0 rgb(2, 3, 88),
+        /* Bóng phía dưới */
+        0 -2px 0 rgb(2, 3, 88),
+        /* Bóng phía trên */
+        2px 0 0 rgb(2, 3, 88),
+        /* Bóng bên phải */
+        -2px 0 0 rgb(2, 3, 88);
+}
+h1 {
+    font-size: 80px !important;
+}
+/* nav-bar */
+.nav-bar {
+    min-height: 8vh;
+    align-items: center;
+    border-bottom: solid 3px rgb(2, 9, 116);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: aqua;
+    font-family: "Chelsea Market", serif;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+}
+.nav-bar ul li,
+a,
+.nav-bar>div {
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(50, 12, 187);
+}
+.nav-bar ul li:hover,
+a:hover {
+    background-color: rgb(2, 4, 124);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #111111;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 8rem 0 6rem 0;
+    font-size: 25px;
+}
+
+#footer .content {
+    display: flex;
+    justify-content: center;
+    
+}
+.content section ul li {
+    list-style: none;
+    padding: 5px;
+}
+.content section h4{
+    margin: 5px 50px;
+}
+#footer .content section:first-child {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+}
+.fb-like{
+    padding: 10px;
+}
+#footer .copyright {
+    border-top: 1px solid;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#footer .content {
+    flex-wrap: wrap;
+}
+
+#footer .content section {
+    width: 50%;
+}
+.copyright{
+    font-size: 25px !important;
+}
+
